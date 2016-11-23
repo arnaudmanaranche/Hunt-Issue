@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hunt Issue\n"
+"POT-Creation-Date: 2016-11-23 12:59+0100\n"
+"PO-Revision-Date: 2016-11-23 12:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: huntissue.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: app/view/index.php:3
+msgid "Add new issue..."
+msgstr "Ajouter un nouveau bug..."
+
+#: app/view/index.php:5
+msgid "Loading..."
+msgstr "Chargement…"
+
+#: app/view/index.php:9
+msgid "Clear all done issues"
+msgstr "Nettoyer les bugs corrigés"
+
+#: app/view/index.php:14
+msgid "Report a bug"
+msgstr "Signaler un bug"
+
+#. Plugin Name of the plugin/theme
+#: huntissue.php:24 huntissue.php:26
+msgid "Hunt Issue"
+msgstr "Hunt Issue"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/arnaudmanaranche/Hunt_Issue"
+msgstr "https://github.com/arnaudmanaranche/Hunt_Issue"
+
+#. Description of the plugin/theme
+msgid ""
+"Hunt Issue is a WordPress plugin. You will be able to create new issues, "
+"fixe it and clear all completed issues !"
+msgstr ""
+"Hunt Issue est un plugin WordPress. Vous aurez la possibilité de créer un "
+"nouveau bug, de le corriger et d'effacer les bugs corrigés !"
+
+#. Author of the plugin/theme
+msgid "Arnaud Manaranche"
+msgstr "Arnaud Manaranche"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/arnaudmanaranche"
+msgstr "https://github.com/arnaudmanaranche"
+
+#~ msgid ""
+#~ "Hunt Issue is a WordPress plugin. After the instalation, it will create a "
+#~ "tab 'Hunt Issue' in your admin side menu. You will be able to create new "
+#~ "issues, fixe it and clear all completed issues !"
+#~ msgstr "oweowhfwipehfewpihfwepihf"
