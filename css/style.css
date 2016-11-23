@@ -1,0 +1,122 @@
+/* Font(s) */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:
+}
+
+/* Plugin container CSS */
+
+.container {
+    width: 600px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.container #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container #logo #text-logo {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.container #logo #text-logo h1 {
+    color: #262626;
+}
+
+.container #logo #text-logo h1 span {
+    color: #2B61B5;
+}
+
+input[type='text'] {
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    padding: 30px 16px;
+    outline: none;
+    color: #797979;
+}
+
+#tasks {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 40px;
+    color: #D2D2D2;
+}
+
+#tasks ul {
+    padding: 0 6px;
+    margin: 0;
+}
+
+#tasks ul li {
+    font-size: 20px;
+    text-align: left;
+    color: #262626;
+    list-style-type: none;
+    border-bottom: 1px solid #1689cc;
+    padding: 14px 0;
+}
+
+#tasks ul li.completed {
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+#tasks li input {
+    float: left;
+    margin: 6px;
+}
+
+#tasks li span {
+    display: none;
+    float: right;
+    font-size: 12px;
+    line-height: 6px;
+    margin: 4px 6px 0 0;
+    border: 1px solid #CE5959;
+    color: #CE5959;
+    border-radius: 12px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#tasks li:hover span {
+    display: block;
+}
+
+#clearCompletedTasks {
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    color: #262626;
+    background: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#clearCompletedTasks.disabled {
+    opacity: .3;
+    pointer-events: none;
+}
+
+#report a {
+    text-decoration: none;
+    color: #262626;
+    font-family: Montserrat; 
+}
+
+#report a:hover {
+    text-decoration: underline;
+}
